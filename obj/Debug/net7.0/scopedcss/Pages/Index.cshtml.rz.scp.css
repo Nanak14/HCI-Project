@@ -1,0 +1,93 @@
+*[b-dmtt4iyxgl] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #080012;
+}
+
+body[b-dmtt4iyxgl] {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav[b-dmtt4iyxgl] {
+    background-color: #333;  /* Change to the color from your Figma design */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-block[b-dmtt4iyxgl] {
+    background-color: #555;  /* Change to the color from your Figma design */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;  /* Adjust based on your design */
+}
+
+.container[b-dmtt4iyxgl] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.table-container[b-dmtt4iyxgl] {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+table[b-dmtt4iyxgl] {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table[b-dmtt4iyxgl], th[b-dmtt4iyxgl], td[b-dmtt4iyxgl] {
+    border-radius: 20px;
+}
+
+th[b-dmtt4iyxgl], td[b-dmtt4iyxgl] {
+    padding: 20px;
+    text-align: center;
+    background-color: #080012;
+    border: 3px solid white;
+}
+
+.profile[b-dmtt4iyxgl] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 5px 0;
+}
+
+.profile-icon[b-dmtt4iyxgl] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #aaa;  /* Change to the color from your Figma design */
+    margin-right: 0.5rem;
+}
+
+.chatbox[b-dmtt4iyxgl] {
+    flex: 1;
+    background-color: #221548;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 20px;
+}
+
+.message[b-dmtt4iyxgl] {
+    margin: 10px 0;
+    background-color: #D4ADFC;  /* Change to the color from your Figma design */
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;  /* Adjust based on your design */
+}

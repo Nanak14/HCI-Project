@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <!-- Profiles and Game Section -->
+    <div class="table-container">
+        <!-- Profiles -->
+        <div>
+            <img src="path_to_Mami_image" alt="Mami" class="profile">
+            <img src="path_to_Dora_image" alt="Dora" class="profile">
+            <img src="path_to_Garry_image" alt="Garry" class="profile">
+        </div>
+        
+        <!-- Table Section -->
+        <table>
+            @for (int i = 0; i < 4; i++) {
+                <tr>
+                    @for (int j = 0; j < 4; j++) {
+                        <td>Cross</td>
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+    
+    <!-- Chatbox Section -->
+    <div class="chatbox">
+        <div class="message">Yo we playing one more after this one?</div>
+        <div class="message">Yeah, why not. Guess who's winning next time.</div>
+        <div class="message">Guys cut it out. I have to go study. You shouldn’t be playing this all night. Focus on yourself and grow. This is really a waste of time.</div>
+        <!-- Add more chat messages as needed -->
+    </div>
+</div>
